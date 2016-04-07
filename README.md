@@ -1,6 +1,7 @@
 # BardBot
 
-REQUIREMENTS
+REQUIREMENTS 
+~120 MBs of disk space for download.. double or triple that to install requirements.
 openssl python greasemonkey/tampermonkey 
 open ports 8000, 443
 
