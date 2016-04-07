@@ -1,7 +1,8 @@
 # BardBot
 
 REQUIREMENTS
-openssl python greasemonkey/tampermonkey
+openssl python greasemonkey/tampermonkey 
+open ports 8000, 443
 
 1. install openssl
 for debian based linux: apt install openssl
