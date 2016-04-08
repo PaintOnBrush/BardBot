@@ -1,14 +1,13 @@
 # BardBot
 
-**REQUIREMENTS**
-
+**REQUIREMENTS** <br />
 ~120 MBs of disk space for download.. double or triple that to install requirements. <br />
 openssl <br />
 python <br />
 greasemonkey/tampermonkey <br />
 open ports: 8000, 443 <br /> <br />
 
-
+**INSTALLATION** <br />
 **1. install openssl:** <br />
 for debian based linux: apt install openssl <br />
 for windows: Setup Included (may need a restart) <br />
