@@ -1,43 +1,42 @@
 # BardBot
 
-<h2>REQUIREMENTS</h2>
+REQUIREMENTS
 
 ~120 MBs of disk space for download.. double or triple that to install requirements. <br />
 openssl <br />
 python <br />
 greasemonkey/tampermonkey <br />
-open ports: 8000, 443
+open ports: 8000, 443 <br /> <br />
 
 
-<h3>1. install openssl: </h3><br />
+**1. install openssl:** <br />
 for debian based linux: apt install openssl <br />
-for windows: Setup Included (may need a restart)
+for windows: Setup Included (may need a restart) <br />
 
-
-<h3>2. generate keys for nginx server using openssl: </h3><br />
+**2. generate keys for nginx server using openssl:** <br />
 cd nginx-1.9.14\conf <br />
 openssl req -x509 -newkey rsa:2048 -sha256 -keyout cert.key -out cert.crt -days 1000 -nodes <br />
 windows: copy cert.crt cert.pem <br />
 linux: cp cert.crt cert.pem <br />
 
-<h3>3. get and install python: </h3><br />
+**3. get and install python:** <br />
 for debian: apt install python <br />
-for windows: setup included (64bit)
+for windows: setup included (64bit) <br />
 
-<h3>4. install python requirements: </h3><br />
+**4. install python requirements:** <br />
 cd poetry-generator <br />
 pip install -r requirements.txt <br />
 
-<h3>5. run poetry generator: </h3><br />
+**5. run poetry generator:** <br />
 windows: run.bat <br />
-linux: chmod +x run.sh && ./run.sh
+linux: chmod +x run.sh && ./run.sh <br />
 
-<h3>6. run nginx server: </h3><br />
+**6. run nginx server:** <br />
 windows: nginx-1.9.14\nginx.exe <br />
-linux: use the configfile from nginx-1.9.14/conf/nginx.conf
+linux: use the configfile from nginx-1.9.14/conf/nginx.conf <br />
 
-<h3>7. run userscript in reddit robin window.</h3>
+**7. run userscript in reddit robin window.** <br />
 
-<h3>8. ??</h3>
+**8. ??**<br />
 
-<h3>9. profit</h3>
+**9. profit**
