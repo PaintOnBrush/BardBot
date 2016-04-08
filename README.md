@@ -2,10 +2,10 @@
 
 **REQUIREMENTS** <br />
 ~120 MBs of disk space for download.. double or triple that to install requirements. <br />
-openssl <br />
-python <br />
+openssl (windows x64 setup included) <br />
+python (windows x64 setup included)<br />
 greasemonkey/tampermonkey <br />
-open ports: 8000, 443 <br /> <br />
+open tcp ports: 8000, 443 <br /> <br />
 
 **INSTALLATION** <br />
 **1. install openssl:** <br />
