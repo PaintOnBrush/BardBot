@@ -1,6 +1,6 @@
 # BardBot
 
-REQUIREMENTS
+**REQUIREMENTS**
 
 ~120 MBs of disk space for download.. double or triple that to install requirements. <br />
 openssl <br />
